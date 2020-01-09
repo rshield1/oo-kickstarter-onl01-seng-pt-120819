@@ -5,4 +5,9 @@ class Porject
     @name = name
     @backers = []
   end
+  
+  def add_backer(Backer)
+    @backers << Backer
+  end
+    
 end

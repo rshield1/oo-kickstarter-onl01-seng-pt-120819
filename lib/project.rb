@@ -6,8 +6,8 @@ class Porject
     @backers = []
   end
   
-  def add_backer(Backer)
-    @backers << Backer
+  def add_backer(backer)
+    @backers << backer
   end
     
 end
